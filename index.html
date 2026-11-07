@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Шабашка Новороссия — подработки и шабашки в ДНР, ЛНР, Запорожье и Херсоне. Бот в Telegram, MAX и VK." />
+  <title>Шабашка Новороссия — подработки рядом</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a class="logo" href="index.html">
+        <span class="logo__mark">Ш</span>
+        <span class="logo__text">Шабашка <em>Новороссия</em></span>
+      </a>
+      <nav class="nav">
+        <a href="#features">Возможности</a>
+        <a href="#tariffs">Тарифы</a>
+        <a href="#channels">Каналы</a>
+        <a href="privacy.html">Конфиденциальность</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero__content">
+        <p class="eyebrow">ДНР · ЛНР · Запорожье · Херсон</p>
+        <h1>Подработки без бесконечного поиска по чатам</h1>
+        <p class="hero__lead">
+          «Шабашка Новороссия» — бот для разовых работ и услуг.
+          Разместите объявление или найдите исполнителя по городу и категории.
+          Одна лента — в Telegram, MAX и VK.
+        </p>
+        <div class="cta-row" id="bots">
+          <a class="btn btn--tg" href="https://t.me/RabotaNR_bot" target="_blank" rel="noopener">Открыть в Telegram</a>
+          <a class="btn btn--max" href="#" id="link-max" title="Ссылка появится после запуска">Открыть в MAX</a>
+          <a class="btn btn--vk" href="#" id="link-vk" title="Ссылка появится после запуска">Открыть в VK</a>
+        </div>
+        <p class="hero__note">MAX и VK — для тех, кто без VPN. Telegram — для тех, кто уже в нём.</p>
+      </div>
+      <div class="hero__card" aria-hidden="true">
+        <div class="phone">
+          <div class="phone__bar"></div>
+          <div class="phone__msg">🔧 Нужны грузчики на 3 часа — Донецк</div>
+          <div class="phone__msg phone__msg--alt">⚡ Подработка: помощь на складе</div>
+          <div class="phone__msg">🛠 Сантехник на замену смесителя</div>
+          <div class="phone__pill">Поиск · Подписки · Отклик</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="features">
+      <h2>Что умеет бот</h2>
+      <p class="section__lead">Сделано для реальных шабашек, а не для «удалёнки с доходом 300к».</p>
+      <div class="grid features">
+        <article class="card">
+          <div class="card__icon">📍</div>
+          <h3>Город и категория</h3>
+          <p>Тысячи населённых пунктов по ОКТМО: не только крупные города, но и посёлки.</p>
+        </article>
+        <article class="card">
+          <div class="card__icon">📢</div>
+          <h3>Объявление за минуту</h3>
+          <p>Ищете исполнителя или работу — тип, категория, цена, контакт, публикация.</p>
+        </article>
+        <article class="card">
+          <div class="card__icon">🔔</div>
+          <h3>Подписки</h3>
+          <p>Уведомления о новых заказах по региону и категории — чтобы не мониторить чаты вручную.</p>
+        </article>
+        <article class="card">
+          <div class="card__icon">🛡️</div>
+          <h3>Безопасность</h3>
+          <p>Предупреждение при отклике, жалобы, чёрный список. Сделки — на ответственности сторон.</p>
+        </article>
+        <article class="card">
+          <div class="card__icon">⭐</div>
+          <h3>Рейтинг</h3>
+          <p>Отзывы после работы помогают отличать надёжных исполнителей и заказчиков.</p>
+        </article>
+        <article class="card">
+          <div class="card__icon">🔗</div>
+          <h3>Три площадки</h3>
+          <p>Общая база объявлений: опубликовали в одном месте — видно там, где удобно смотреть.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="tariffs">
+      <div class="container">
+        <h2>Тарифы</h2>
+        <p class="section__lead">Публикация и поиск доступны бесплатно. VIP — для тех, кто пользуется регулярно.</p>
+        <div class="grid tariffs">
+          <article class="tariff">
+            <h3>Free</h3>
+            <p class="tariff__price">0 ₽</p>
+            <ul>
+              <li>До 2 подписок на фильтры</li>
+              <li>До 3 активных объявлений</li>
+              <li>Срок объявления 7 дней</li>
+              <li>Дайджест раз в час</li>
+              <li>Поиск и отклики</li>
+            </ul>
+          </article>
+          <article class="tariff tariff--accent">
+            <span class="tariff__badge">Популярный</span>
+            <h3>VIP</h3>
+            <p class="tariff__price">199 ₽ <span>или 99 ★</span> <small>/ 30 дней</small></p>
+            <ul>
+              <li>До 10 подписок</li>
+              <li>«Все категории» в подписках</li>
+              <li>До 10 объявлений, срок 14 дней</li>
+              <li>Уведомления каждые 30 минут</li>
+              <li>1 бесплатное поднятие / мес</li>
+            </ul>
+          </article>
+          <article class="tariff">
+            <h3>VIP+</h3>
+            <p class="tariff__price">399 ₽ <span>или 199 ★</span> <small>/ 30 дней</small></p>
+            <ul>
+              <li>До 30 подписок</li>
+              <li>До 25 объявлений, срок 30 дней</li>
+              <li>Оповещения сразу после публикации</li>
+              <li>3 поднятия / мес</li>
+              <li>1 выделение объявления на 3 дня</li>
+            </ul>
+          </article>
+        </div>
+        <div class="extras">
+          <h3>Разовые услуги</h3>
+          <ul class="extras__list">
+            <li><strong>Поднятие</strong> — 49 ₽ / 25 ★</li>
+            <li><strong>Выделение 3 дня</strong> — 99 ₽ / 49 ★</li>
+            <li><strong>Выделение 7 дней</strong> — 149 ₽ / 75 ★</li>
+            <li><strong>Поднятие + выделение 3 дня</strong> — 129 ₽ / 65 ★</li>
+          </ul>
+          <p class="muted">Оплата: Telegram Stars и рубли (ЮKassa). Пакеты VIP на 90 дней — со скидкой. Актуальные условия — в боте.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="channels">
+      <h2>Каналы и сообщества</h2>
+      <p class="section__lead">Новости бота, подборки объявлений, обновления.</p>
+      <div class="grid channels">
+        <a class="channel" href="#" id="ch-tg">
+          <span class="channel__name">Telegram-канал</span>
+          <span class="channel__hint">Укажите ссылку после создания · @shabashka_nr</span>
+        </a>
+        <a class="channel" href="#" id="ch-max">
+          <span class="channel__name">MAX</span>
+          <span class="channel__hint">Ссылка на сообщество / канал</span>
+        </a>
+        <a class="channel" href="#" id="ch-vk">
+          <span class="channel__name">ВКонтакте</span>
+          <span class="channel__hint">Ссылка на сообщество</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section cta-final container">
+      <h2>Начать</h2>
+      <p>Откройте бота на удобной площадке и выберите роль — исполнитель или заказчик.</p>
+      <div class="cta-row">
+        <a class="btn btn--tg" href="https://t.me/RabotaNR_bot" target="_blank" rel="noopener">Telegram</a>
+        <a class="btn btn--max" href="#">MAX</a>
+        <a class="btn btn--vk" href="#">VK</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <strong>Шабашка Новороссия</strong>
+        <p class="muted">Площадка объявлений о подработке. Не является гарантом сделок.</p>
+      </div>
+      <div class="footer__links">
+        <a href="privacy.html">Политика конфиденциальности</a>
+        <a href="https://t.me/RabotaNR_bot" target="_blank" rel="noopener">Бот</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
