@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Шабашка Новороссия — подработки и шабашки в ДНР, ЛНР, Запорожье и Херсоне. Бот в Telegram, MAX и VK." />
   <title>Шабашка Новороссия — подработки рядом</title>
+  <link rel="icon" type="image/png" href="logo.png" />
+  <link rel="apple-touch-icon" href="logo.png" />
   <link rel="stylesheet" href="styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,13 +18,14 @@
   <header class="header">
     <div class="container header__inner">
       <a class="logo" href="index.html">
-        <span class="logo__mark">Ш</span>
+        <img class="logo__img" src="logo.png" alt="Шабашка" width="40" height="40" />
         <span class="logo__text">Шабашка <em>Новороссия</em></span>
       </a>
       <nav class="nav">
         <a href="#features">Возможности</a>
         <a href="#tariffs">Тарифы</a>
         <a href="#channels">Каналы</a>
+        <a href="https://t.me/rabota_nr" target="_blank" rel="noopener">Канал</a>
         <a href="privacy.html">Конфиденциальность</a>
       </nav>
     </div>
@@ -43,11 +46,16 @@
           <a class="btn btn--max" href="#" id="link-max" title="Ссылка появится после запуска">Открыть в MAX</a>
           <a class="btn btn--vk" href="#" id="link-vk" title="Ссылка появится после запуска">Открыть в VK</a>
         </div>
-        <p class="hero__note">MAX и VK — для тех, кто без VPN. Telegram — для тех, кто уже в нём.</p>
+        <p class="hero__note">
+          Канал с новостями и подборками:
+          <a href="https://t.me/rabota_nr" target="_blank" rel="noopener">t.me/rabota_nr</a>
+        </p>
       </div>
-      <div class="hero__card" aria-hidden="true">
+      <div class="hero__card">
         <div class="phone">
-          <div class="phone__bar"></div>
+          <div class="phone__brand">
+            <img src="logo.png" alt="" width="72" height="72" />
+          </div>
           <div class="phone__msg">🔧 Нужны грузчики на 3 часа — Донецк</div>
           <div class="phone__msg phone__msg--alt">⚡ Подработка: помощь на складе</div>
           <div class="phone__msg">🛠 Сантехник на замену смесителя</div>
@@ -150,9 +158,9 @@
       <h2>Каналы и сообщества</h2>
       <p class="section__lead">Новости бота, подборки объявлений, обновления.</p>
       <div class="grid channels">
-        <a class="channel" href="#" id="ch-tg">
+        <a class="channel" href="https://t.me/rabota_nr" target="_blank" rel="noopener" id="ch-tg">
           <span class="channel__name">Telegram-канал</span>
-          <span class="channel__hint">Укажите ссылку после создания · @shabashka_nr</span>
+          <span class="channel__hint">t.me/rabota_nr</span>
         </a>
         <a class="channel" href="#" id="ch-max">
           <span class="channel__name">MAX</span>
@@ -172,6 +180,7 @@
         <a class="btn btn--tg" href="https://t.me/RabotaNR_bot" target="_blank" rel="noopener">Telegram</a>
         <a class="btn btn--max" href="#">MAX</a>
         <a class="btn btn--vk" href="#">VK</a>
+        <a class="btn btn--tg" href="https://t.me/rabota_nr" target="_blank" rel="noopener" style="background:#1b2838;border:1px solid rgba(245,166,35,.4)">Канал</a>
       </div>
     </section>
   </main>
@@ -183,6 +192,7 @@
         <p class="muted">Площадка объявлений о подработке. Не является гарантом сделок.</p>
       </div>
       <div class="footer__links">
+        <a href="https://t.me/rabota_nr" target="_blank" rel="noopener">Канал</a>
         <a href="privacy.html">Политика конфиденциальности</a>
         <a href="https://t.me/RabotaNR_bot" target="_blank" rel="noopener">Бот</a>
       </div>
